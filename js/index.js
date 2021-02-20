@@ -1,9 +1,9 @@
-var nome="Jose Vitor";
-var cargo= "desenvolvedor"
+var nome ="Jose Vitor";
+var cargo = "desenvolvedor";
 
-var nomeHtml= document.getElementById=("nome-no-html");
-var texto1 = document.getElementById=("texto-1");
-var texto2 = document.getElementById=("texto-2");
+var nomeHtml= document.getElementById("nome-no-html");
+var texto1 = document.getElementById("texto-1");
+var texto2 = document.getElementById("texto-2");
 
 function colocarNomeNoHTML(nome){
 
@@ -14,8 +14,6 @@ function logarNome() {
     console.log(nome);
 }
 
-colocarNomeNoHtml(nome) {
-}
 
 function clickNoProjeto(){
     console.log("clicou no botão projetos");
