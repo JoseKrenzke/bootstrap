@@ -44,28 +44,34 @@ body{
     padding: 5px 25px;
     font-weight: 600;
 }
-.icon-redes-sociais{
+
+.icon-redes-sociais {
     text-align: center;
     padding: 10px;
 }
+
 .title-text{
     margin-top: 1em;
     font-weight: 600;
 }
+
 .title-subtitle{
     margin: 1em 0;
 }
+
 .text{
     padding: 5px 17px;
 }
-.link-redes-sociais{
+.links-redes-sociais{
     text-decoration: none;
 }
-.link-redes-sociais{
+
+.links-redes-sociais i{
     color: black;
     font-size: 25px;
     padding: 10px;
 }
+
 #footer-elentos{
     display: flex;
     justify-content: space-between;
@@ -73,7 +79,7 @@ body{
 #footer-elementos .email{
     padding: 15px 0px 15px 0px;
 }
-@media (min-900px){
+@media (min-width: 900px){
 
     .container-linear{
         background:linear-gradient(to left, #ffff 60%, #19def0 40%);
@@ -83,9 +89,19 @@ body{
         justify-content: flex-end;
         align-content: center;
         background-color: #ffff !important;
-        box-shadow: none !important;
-        width: 18em;
+        box-shadow: 10px 5px 10px 0px #292a2d;
+        width: 22em;
         border: none !important;
+    }
+
+    .card-perfil{
+        background-color: #fff !important;
+        color: #292a2d;
+        box-shadow: none !important;
+        width: 22em;
+        border: none !important;
+        
+
     }
     .btn-card{
         color: black !important;
